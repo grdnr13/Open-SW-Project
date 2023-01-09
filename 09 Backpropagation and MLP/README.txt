@@ -1,6 +1,3 @@
-이미 scipy와 numpy 등이 최신 버전으로 설치된 상태여서 삭제 후 재설치를 시도했으나 제대로 작동하지 않았습니다
-따라서 불가피하게 data_utils.py의 from scipy.misc import imread를 from imageio import imread로 변경해서 실행했습니다
-
 [1] neural_net.py
 
   1. class TwoLayerNet(object)
